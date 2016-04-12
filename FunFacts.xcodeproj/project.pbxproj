@@ -14,6 +14,8 @@
 		C4FFDF651B321CA30087342B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FFDF641B321CA30087342B /* Images.xcassets */; };
 		C4FFDF681B321CA30087342B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FFDF661B321CA30087342B /* LaunchScreen.xib */; };
 		C4FFDF741B321CA30087342B /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFDF731B321CA30087342B /* FunFactsTests.m */; };
+		C4FFDF7F1B322BD50087342B /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFDF7E1B322BD50087342B /* FactBook.m */; };
+		C4FFDF821B32416C0087342B /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFDF811B32416C0087342B /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		C4FFDF6D1B321CA30087342B /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FFDF721B321CA30087342B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4FFDF731B321CA30087342B /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
+		C4FFDF7D1B322BD50087342B /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		C4FFDF7E1B322BD50087342B /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		C4FFDF801B32416C0087342B /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		C4FFDF811B32416C0087342B /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				C4FFDF5C1B321CA30087342B /* AppDelegate.m */,
 				C4FFDF5E1B321CA30087342B /* ViewController.h */,
 				C4FFDF5F1B321CA30087342B /* ViewController.m */,
+				C4FFDF7D1B322BD50087342B /* FactBook.h */,
+				C4FFDF7E1B322BD50087342B /* FactBook.m */,
+				C4FFDF801B32416C0087342B /* ColorWheel.h */,
+				C4FFDF811B32416C0087342B /* ColorWheel.m */,
 				C4FFDF611B321CA30087342B /* Main.storyboard */,
 				C4FFDF641B321CA30087342B /* Images.xcassets */,
 				C4FFDF661B321CA30087342B /* LaunchScreen.xib */,
@@ -221,7 +231,9 @@
 			files = (
 				C4FFDF601B321CA30087342B /* ViewController.m in Sources */,
 				C4FFDF5D1B321CA30087342B /* AppDelegate.m in Sources */,
+				C4FFDF7F1B322BD50087342B /* FactBook.m in Sources */,
 				C4FFDF5A1B321CA30087342B /* main.m in Sources */,
+				C4FFDF821B32416C0087342B /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
